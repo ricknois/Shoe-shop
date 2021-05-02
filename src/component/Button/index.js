@@ -6,7 +6,7 @@ export default function index() {
     <View style={styles.container}>
       <TouchableOpacity style={ styles.btnContainer }>
         <Text style={styles.title}>
-          Comprar
+          Buy
         </Text>
       </TouchableOpacity>
     </View>

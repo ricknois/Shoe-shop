@@ -17,9 +17,9 @@ export default function index() {
         />
 
         <View style={ styles.textContainer }>
-          <Text style={ styles.text }>TÊNIS</Text>
+          <Text style={ styles.text }>SNEAKERS</Text>
           <Text style={[ styles.text, { color: '#CECECF' } ]}>•</Text>
-          <Text style={[ styles.text, { color: '#CECECF' } ]}>MASCULINO</Text>
+          <Text style={[ styles.text, { color: '#CECECF' } ]}>MEN</Text>
           <TouchableOpacity style={{ position: 'absolute', right: 0, alignSelf: 'center' }}>
             <MaterialIcons 
               name="filter-list"
@@ -33,7 +33,7 @@ export default function index() {
         <View style={ styles.line }/>
 
         <ScrollView>
-          <Text style={ styles.text }>LANÇAMENTOS</Text>
+          <Text style={ styles.text }>NEW RELEASES</Text>
 
           <View style={{ flexDirection: 'row', justifyContent: 'space-around' }} >
             <Shoes 
@@ -41,17 +41,17 @@ export default function index() {
               cost="300.90"
               onClick={ () => navigation.navigate('Detail') }
             >
-              Shoe touchable
+              Touchable sneaker
             </Shoes>
-            <Shoes img={require('../../assets/1.png')} cost="560.90">Shoe 2</Shoes>
+            <Shoes img={require('../../assets/1.png')} cost="560.90">Sneaker 2</Shoes>
           </View>
           <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-            <Shoes img={require('../../assets/3.png')} cost="600.90">Shoe 3</Shoes>
-            <Shoes img={require('../../assets/4.png')} cost="220.90">Shoe 4</Shoes>
+            <Shoes img={require('../../assets/3.png')} cost="600.90">Sneaker 3</Shoes>
+            <Shoes img={require('../../assets/4.png')} cost="220.90">Sneaker 4</Shoes>
           </View>
           <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-            <Shoes img={require('../../assets/5.png')} cost="888.90">Shoe with big name aaaa</Shoes>
-            <Shoes img={require('../../assets/6.png')} cost="199.90">Shoe 6</Shoes>
+            <Shoes img={require('../../assets/5.png')} cost="888.90">Sneaker with big name aaaa</Shoes>
+            <Shoes img={require('../../assets/6.png')} cost="199.90">Sneaker 6</Shoes>
           </View>
         </ScrollView>
 
