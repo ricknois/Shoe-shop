@@ -38,8 +38,7 @@
 
 Shoe Shop is an application that displays a list of shoes with their details.
 It was developed to improve my react native skills.
-I followed the guidelines of a video from "Sujeito Programador".
-// https://www.youtube.com/watch?v=RZbz26EVysA
+
 ---
 
 ## Features
@@ -108,6 +107,7 @@ The following tools were used in the construction of the project:
 
  <sub><b>Rick Sousa</b></sub>
  <br />
+ I followed the guidelines of a video from "Sujeito Programador". ref: https://www.youtube.com/watch?v=RZbz26EVysA
 
 Made with love by Rick Sousa 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ricknois/)
 
